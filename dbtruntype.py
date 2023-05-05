@@ -1,6 +1,5 @@
 from enum import Enum
 
-
 class DbtRunType(Enum):
-    NORMAL = 1
-    INCREMENTAL = 1
+    FULLREFRESH = 1
+    INCREMENTAL = 2
